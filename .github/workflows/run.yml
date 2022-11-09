@@ -23,9 +23,9 @@ jobs:
           sudo -E apt-get install zsh -y
           
       - name: 初始化Python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 4.3.0
           
       - name: 开始
         run: |
