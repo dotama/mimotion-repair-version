@@ -1,4 +1,4 @@
-name: 刷步数
+name: 刷刷刷刷刷步步步步步步数数数数数
 
 on:
   #push:
@@ -25,7 +25,7 @@ jobs:
       - name: 初始化Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.11
           
       - name: 开始
         run: |
