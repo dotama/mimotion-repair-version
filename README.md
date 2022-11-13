@@ -3,7 +3,7 @@
   <a href="https://github.com/matocool?tab=followers">
   <img src="https://img.shields.io/github/followers/matocool?label=Followers&style=plastic" height="25px" alt="github follow" /> </a>
   <a href="https://github.com/matocool/mimotion/network)">
-  <img src="[https://img.shields.io/github/followers/matocool?label=Followers&style=plastic](https://img.shields.io/github/stars/matocool?style=social)" height="25px" alt="github follow" /> </a>
+  <img src="https://img.shields.io/github/stars/matocool?style=social" height="25px" alt="github follow" /> </a>
 </p>
 
 # 小米运动自动刷步数
