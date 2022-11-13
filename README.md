@@ -7,9 +7,7 @@
 # 小米运动自动刷步数
 
 > 小米运动自动刷步数
-<br><br>[https://github.com/huangshihai/mimotion](https://github.com/huangshihai/mimotion)
-<br><br>(https://github.com/huangshihai/mimotion)](https://github.com/xunichanghuan/mimotion)
-<br><br> 
+
 ## Github Actions 部署指南
 
 ### 一、Fork 此仓库
@@ -41,6 +39,11 @@
 
 编辑 **.github/workflows/run.yml**
 修改其中**cron**语句的判断时间为UTC时间，即**北京时间-8**，如北京时间8点为UTC时间0点，需要运行的时间-8就是UTC时间
+
+
+## 感谢名单↓
+<br><br>https://github.com/huangshihai/mimotion
+<br><br>https://github.com/xunichanghuan/mimotion
 
 
 
