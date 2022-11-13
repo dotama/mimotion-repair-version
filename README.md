@@ -15,7 +15,7 @@
 ### 二、设置账号密码
 > 添加名为  **USER**、**PWD**、**OPEN_GET_WEATHER**、**AREA**、**SCKEY**的变量: Settings-->Secrets-->New secret  
 
-**| Secrets |  格式  |
+| Secrets |  格式  |
 | -------- | ----- |
 | USER |   小米运动登录账号,仅支持小米运动账号对应的手机号,不支持小米账号|
 | PWD |   小米运动登录密码,仅支持小米运动账号对应的密码|
