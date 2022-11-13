@@ -9,6 +9,9 @@ import time
 
 import requests
 
+# 推送server酱
+sckey = sys.argv[4]
+
 # 开启根据地区天气情况降低步数（默认关闭）
 open_get_weather = sys.argv[3]
 # 设置获取天气的地区（上面开启后必填）如：area = "宁波"
@@ -226,7 +229,9 @@ def push_wx(desp=""):
 
         response = requests.get(server_url, params=params).text
         print(response)
-
+        
+def main_handler(event, context):
+    getBeijinTime()
 
 if __name__ == "__main__":
     getBeijinTime()
