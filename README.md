@@ -1,8 +1,8 @@
 # mimotion
 ![ 刷步数](https://github.com/huangshihai/mimotion/actions/workflows/run.yml/badge.svg)
-[![GitHub forks](https://img.shields.io/github/forks/huangshihai/mimotion?style=flat-square)](https://github.com/huangsh/mimotion/network)
-[![GitHub stars](https://img.shields.io/github/stars/huangshihai/mimotion?style=flat-square)](https://github.com/huangshihai/mimotion/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/huangshihai/mimotion?style=flat-square)](https://github.com/huangshihai/mimotion/issues)
+[![GitHub forks](https://img.shields.io/github/forks/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/network)
+[![GitHub stars](https://img.shields.io/github/stars/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/issues)
 
 # 小米运动自动刷步数
 
@@ -13,16 +13,16 @@
 ### 一、Fork 此仓库
 
 ### 二、设置账号密码
-> 添加名为  **USER**、**PWD**、**OPEN_GET_WEATHER**、**AREA**的变量: Settings-->Secrets-->New secret  
+> 添加名为  **USER**、**PWD**、**OPEN_GET_WEATHER**、**AREA**、**SCKEY**的变量: Settings-->Secrets-->New secret  
 
-| Secrets |  格式  |
+**| Secrets |  格式  |
 | -------- | ----- |
 | USER |   小米运动登录账号,仅支持小米运动账号对应的手机号,不支持小米账号|
 | PWD |   小米运动登录密码,仅支持小米运动账号对应的密码|
 |SCKEY|server酱sckey，如无填写NO|
-| OPEN_GET_WEATHER |   开启根据地区天气情况降低步数**False**关闭,**True**开启|
-| AREA |   设置获取天气的地区（上面开启后必填）如：**北京**，当**OPEN_GET_WEATHER**为**False**时填写**NO**|
-| PAT **（步骤3在登入情况下即可一键获取）**|此处**PAT**需要申请，值为github token，需要repo和workflow权限,此项必填，避免git push的权限错误。<br>-------------------------------------------------------------------------------------------------------------<br>-------------------------------------------------------------------------------------------------------------<br><br>1、在 https://github.com 登录你的帐号，登录以后点击右上角你的头像的Settings<br><br>2、 点击 Developer settings 下的 Personal access tokens<br>如果您老人家觉得上面两个步骤很麻烦，那么您就直接进入这个链接(前提是你要先登陆你的帐号)：https://github.com/settings/tokens<br><br><br>3、点击 https://github.com/settings/tokens/new 这个超链接，就是创建你的token。<br><br>4、在Token description中随便填一个描述名称，下面的复选框是你这个token需要的权限，全部勾上就可以了。<br><br>5、下面这个就是你的token了，可以直接复制使用。|<br>
+| OPEN_GET_WEATHER|   开启根据地区天气情况降低步数**False**关闭,**True**开启|
+**| AREA |   设置获取天气的地区（上面开启后必填）如：**北京**，当**OPEN_GET_WEATHER**为**False**时填写**NO**|
+**| PAT （在登入情况下步骤3链接即可一键获取）|此处**PAT**需要申请，值为github token，需要repo和workflow权限,此项必填，避免git push的权限错误。<br>-------------------------------------------------------------------------------------------------------------<br>-------------------------------------------------------------------------------------------------------------<br><br>1、在 https://github.com 登录你的帐号，登录以后点击右上角你的头像的Settings<br><br>2、 点击 Developer settings 下的 Personal access tokens<br>如果您老人家觉得上面两个步骤很麻烦，那么您就直接进入这个链接(前提是你要先登陆你的帐号)：https://github.com/settings/tokens<br><br><br>3、点击 https://github.com/settings/tokens/new 这个超链接，就是创建你的token。<br><br>4、在Token description中随便填一个描述名称，下面的复选框是你这个token需要的权限，全部勾上就可以了。<br><br>5、下面这个就是你的token了，可以直接复制使用。|<br>
 
 
 ### 三、自定义启动时间多账户(用不上请忽略)
