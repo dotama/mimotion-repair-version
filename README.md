@@ -1,6 +1,5 @@
 # mimotion
   <a href="https://github.com/matocool?tab=followers"> <img src="https://img.shields.io/github/followers/matocool?label=Followers&style=plastic" height="25px" alt="github follow" /> </a>
-https://img.shields.io/github/forks/huangshihai/mimotion?style=plastic
 
 # 小米运动自动刷步数
 
