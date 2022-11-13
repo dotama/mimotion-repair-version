@@ -1,9 +1,6 @@
 # mimotion
   <a href="https://github.com/matocool?tab=followers"> <img src="https://img.shields.io/github/followers/matocool?label=Followers&style=plastic" height="25px" alt="github follow" /> </a>
-![ 刷步数](https://github.com/matocool/mimotion/actions/workflows/run.yml/badge.svg)
-[![GitHub forks](https://img.shields.io/github/forks/matocool/mimotion?style=flat-square)](https://github.com/matocool/mimotion/network)
-[![GitHub stars](https://img.shields.io/github/stars/matocool/mimotion?style=flat-square)](https://github.com/matocool/mimotion/stargazers)
-[![GitHub issues](https://img.shields.io/github/issues/matocool/mimotion?style=flat-square)](https://github.com/matocool/mimotion/issues)
+
 
 # 小米运动自动刷步数
 
