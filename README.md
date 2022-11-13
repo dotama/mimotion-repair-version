@@ -1,7 +1,8 @@
 # mimotion
-  <a href="https://github.com/matocool?tab=followers"> <img src="https://img.shields.io/github/followers/matocool?label=Followers&style=plastic" height="25px" alt="github follow" /> </a>
-<a href="https://github.com/allegroai/clearml"><img src="[https://img.shields.io/pypi/pyversions/clearml.svg]
-"></a>
+</p>  
+  <a href="https://github.com/matocool?tab=followers">
+  <img src="https://img.shields.io/github/followers/matocool?label=Followers&style=plastic" height="25px" alt="github follow" /> </a>
+</p>
 
 # 小米运动自动刷步数
 
