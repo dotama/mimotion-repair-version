@@ -41,13 +41,13 @@
 修改其中**cron**语句的判断时间为UTC时间，即**北京时间-8**，如北京时间8点为UTC时间0点，需要运行的时间-8就是UTC时间
 
 
-## 感谢名单↓
+## 感谢名单
 <br><br>https://github.com/huangshihai/mimotion
 <br><br>https://github.com/xunichanghuan/mimotion
 
 
 
-## 注意事项
+### 注意事项
 
 1. 每天运行六次，整由run.yml中的cron控制，分钟为随机值
 
