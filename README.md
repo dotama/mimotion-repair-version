@@ -21,7 +21,7 @@
 | PWD |   小米运动登录密码,仅支持小米运动账号对应的密码|
 | OPEN_GET_WEATHER |   开启根据地区天气情况降低步数**False**关闭,**True**开启|
 | AREA |   设置获取天气的地区（上面开启后必填）如：**北京**，当**OPEN_GET_WEATHER**为**False**时填写**NO**|
-| PAT |   此处**PAT**需要申请，值为github token，教程详见：https://www.jianshu.com/p/bb82b3ad1d11 ,需要repo和workflow权限,此项必填，避免git push的权限错误。> 1、在 https://github.com 登录你的帐号，登录以后点击右上角你的头像的Settings
+| PAT |   此处**PAT**需要申请，值为github token，教程详见：https://www.jianshu.com/p/bb82b3ad1d11 ,需要repo和workflow权限,此项必填，避免git push的权限错误。<br><br> 1、在 https://github.com 登录你的帐号，登录以后点击右上角你的头像的Settings
 > 
 > 2、 点击 Developer settings 下的 Personal access tokens
 > 
@@ -33,9 +33,8 @@
 > 
 > 4、在Token description中随便填一个描述名称，下面的复选框是你这个token需要的权限，全部勾上就可以了。
 > 
-> 5、下面这个就是你的token了，可以直接复制使用。
+> 5、下面这个就是你的token了，可以直接复制使用。|
 
- |
 |SCKEY|server酱sckey，如无填写NO|
 
 ### 三、自定义启动时间多账户(用不上请忽略)
