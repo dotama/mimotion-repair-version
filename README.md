@@ -7,8 +7,8 @@
 # 小米运动自动刷步数
 
 > 小米运动自动刷步数
-<br><br> [https://github.com/huangshihai/mimotion](https://github.com/huangshihai/mimotion)
-<br><br>[[huangshihai/mimotion](https://github.com/huangshihai/mimotion)](https://github.com/xunichanghuan/mimotion)
+<br><br>[https://github.com/huangshihai/mimotion](https://github.com/huangshihai/mimotion)
+<br><br>(https://github.com/huangshihai/mimotion)](https://github.com/xunichanghuan/mimotion)
 <br><br> 
 ## Github Actions 部署指南
 
