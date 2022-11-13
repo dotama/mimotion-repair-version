@@ -1,5 +1,5 @@
 # mimotion
-![ 刷步数](https://github.com/huangshihai/mimotion/actions/workflows/run.yml/badge.svg)
+![ 刷步数](https://github.com/matocool/mimotion/actions/workflows/run.yml/badge.svg)
 [![GitHub forks](https://img.shields.io/github/forks/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/network)
 [![GitHub stars](https://img.shields.io/github/stars/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/huangshihai/mimotion?style=flat-square)](https://github.com/matocool/mimotion/issues)
@@ -7,7 +7,8 @@
 # 小米运动自动刷步数
 
 > 小米运动自动刷步数
->###复刻自 huangshihai/mimotion
+> https://github.com/huangshihai/mimotion
+> [huangshihai/mimotion](https://github.com/huangshihai/mimotion)
 
 ## Github Actions 部署指南
 
