@@ -58,3 +58,7 @@
 **5. 小米运动不会更新步数，只有关联的会同步！！！！！**
 
 **6. 请注意，账号不是 [小米账号]，而是 [小米运动] 的账号。**
+
+## 历史Star数
+
+[![Stargazers over time](https://starchart.cc/matocool/mimotion.svg)](https://starchart.cc/matocool/mimotion)
