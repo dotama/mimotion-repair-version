@@ -104,7 +104,6 @@ def getBeijinTime():
                 msg_mi += main(user_mi, passwd_mi, min_1, max_1)
                 # print(msg_mi)
             if a:
-                push('【小米运动步数修改】', msg_mi)
                 push_wx(msg_mi)
                 run(msg_mi)
             else:
