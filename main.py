@@ -105,7 +105,6 @@ def getBeijinTime():
                 # print(msg_mi)
             if a:
                 push_wx(msg_mi)
-                run(msg_mi)
             else:
                print("此次修改结果不推送")
     else:
