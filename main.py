@@ -17,6 +17,8 @@ open_get_weather = sys.argv[3]
 # 设置获取天气的地区（上面开启后必填）如：area = "宁波"
 area = sys.argv[4]
 
+set_push = [True]
+
 # 以下如果看不懂直接默认就行只需改上面
 
 # 系数K查询到天气后降低步数比率，如查询得到设置地区为多云天气就会在随机后的步数乘0.9作为最终修改提交的步数
@@ -74,6 +76,7 @@ def getBeijinTime():
     r = requests.get(url=url, headers=hea)
     if r.status_code == 200:
         result = r.text
+        a = set_push
         pattern = re.compile('nhrs=(\\d+)')
         find = re.search(pattern, result)
         hour = find.group(1)
@@ -100,9 +103,12 @@ def getBeijinTime():
             for user_mi, passwd_mi in zip(user_list, passwd_list):
                 msg_mi += main(user_mi, passwd_mi, min_1, max_1)
                 # print(msg_mi)
+            if a:
                 push('【小米运动步数修改】', msg_mi)
                 push_wx(msg_mi)
                 run(msg_mi)
+            else:
+               print("此次修改结果不推送")
     else:
         print("当前主人设置了0步数呢，本次不提交")
         return
