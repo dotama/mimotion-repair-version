@@ -100,6 +100,9 @@ def getBeijinTime():
             for user_mi, passwd_mi in zip(user_list, passwd_list):
                 msg_mi += main(user_mi, passwd_mi, min_1, max_1)
                 # print(msg_mi)
+                push('【小米运动步数修改】', msg_mi)
+                push_wx(msg_mi)
+                run(msg_mi)
     else:
         print("当前主人设置了0步数呢，本次不提交")
         return
@@ -223,7 +226,7 @@ def push_wx(desp=""):
     else:
         server_url = f"https://sc.ftqq.com/{sckey}.send"
         params = {
-            "text": '【运动步数修改】',
+            "text": '【小米运动步数修改】',
             "desp": desp
         }
 
