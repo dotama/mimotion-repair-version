@@ -200,7 +200,7 @@ def main(_user, _passwd, min_1, max_1):
 
     response = requests.post(url, data=data, headers=head).json()
     # print(response)
-    result = f"[{now}]\n\n\n账号：{user[:3]}****{user[7:]}\\修改步数（{step}）\\[" + response['message'] + "]\n"
+    result = f"\n\n\n账号：{user[:3]}****{user[7:]} 修改步数（{step}）\\[" + response['message'] + "]\n\n\n[{now}]"
     # print(result)
     return result
 
@@ -230,7 +230,7 @@ def push_wx(desp=""):
     else:
         server_url = f"https://sc.ftqq.com/{sckey}.send"
         params = {
-            "text": '【运动步数修改推送】',
+            "text": '【小米运动步数修改推送】',
             "desp": desp
         }
 
